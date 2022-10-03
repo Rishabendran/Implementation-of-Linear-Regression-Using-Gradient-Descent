@@ -1,22 +1,3 @@
-# Implementation-of-Linear-Regression-Using-Gradient-Descent
-
-## AIM:
-To write a program to predict the profit of a city using the linear regression model with gradient descent.
-
-## Equipments Required:
-1. Hardware – PCs
-2. Anaconda – Python 3.7 Installation / Jupyter notebook
-
-## Algorithm
-1. Use the standard libraries in python for Gradient Descent.
-2. Upload the dataset and check any null value using .isnull() function.
-3. Declare the default values for linear regression
-4. Calculate the loss usinng Mean Square Error
-5. Predict the value of y. 
-6. Plot the graph respect to hours and scores using scatter plot function.
-
-## Program:
-```
 /*
 Program to implement the linear regression using gradient descent.
 Developed by: Rishabendran R
@@ -88,14 +69,3 @@ print("For population = 35,000, we predict a profit of $"+str(round(predict1,0))
 
 predict2 = predict(np.array([1,7]),theta)*10000
 print("For population = 70,000, we predict a profit of $"+str(round(predict2,0)))
-```
-
-## Output:
-![linear regression using gradient descent](./images/gd1.png)
-![](./images/gd2.png)
-![](./images/gd3.png)
-![](./images/gd4.png)
-![](./images/gd5.png)
-
-## Result:
-Thus the program to implement the linear regression using gradient descent is written and verified using python programming.
